@@ -1,0 +1,41 @@
+table {
+        border-collapse: collapse;
+        width: 95%;
+        border-radius: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom:7px;
+
+    
+    }
+    th{
+border: 1px solid white;
+        text-align: center; 
+         padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom:7px;
+        background:  #164BAF;
+
+       
+    }
+     td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom:7px;
+       background: #F2F7FF;
+
+
+    }
+  .TT{
+    background-color: #D1E3FF;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+
+  }
