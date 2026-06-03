@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: #fff;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  padding: 142px 125px 142px 80px;
+}
+
+img {
+  flex-shrink: 0;
+  width: 484.47px;
+  height: 496px;
+  border-radius: 30px;
+  object-fit: cover;
+  display: block;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 591.58px;
+  gap: 16px;
+  margin-top: -16px;
+  margin-left: 18px;
+}
+
+h2 {
+  width: 100%;
+  max-width: 591.58px;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #164BAF;
+}
+
+p {
+  width: 100%;
+  max-width: 591.58px;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.p-lines span {
+  display: block;
+  white-space: nowrap;
+}
+
+p strong {
+  font-weight: 700;
+}
