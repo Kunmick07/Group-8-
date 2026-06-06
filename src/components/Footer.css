@@ -27,14 +27,19 @@
   margin-bottom: 14px;
 }
 
-.footer__team {
+.footer__team-list {
+  list-style: none;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.footer__sep {
-  color: var(--white-40);
+.footer__team-list li {
+  font-size: 0.82rem;
+}
+
+.footer__name {
+  color: var(--white-70);
 }
 
 .footer__link {
