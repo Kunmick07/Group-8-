@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Science Contact Form</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen text-gray-900 flex justify-center p-6 md:p-12">
+
+    <div class="w-full max-w-3xl">
+        
+        
+        <div class="mb-8">
+            <h1 class="text-[22px] font-bold mb-2">Have Questions About Planetary Science?</h1>
+            <p class="text-[15px] text-[#4b5563] leading-snug max-w-2xl">
+                Interested in learning more about space, astronomy, or how planetary data is collected and analyzed?<br>
+                Reach out and we'll get back to you.
+            </p>
+        </div>
+
+        
+        <form action="#" method="POST" class="space-y-6">
+            
+           
+            <div>
+                <label for="fullName" class="form-label">Full Name*</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Full name" class="form-input" required>
+            </div>
+
+         
+            <div>
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" class="form-input" required>
+            </div>
+
+            
+            <div>
+                <label for="city" class="form-label">City*</label>
+                <div class="relative max-w-[460px]">
+                    <select id="city" name="city" class="form-input appearance-none bg-white text-gray-500 cursor-pointer" required>
+                        <option value="" disabled selected>Choose city</option>
+                        <option value="new_york">New York</option>
+                        <option value="london">London</option>
+                        <option value="tokyo">Tokyo</option>
+                        <option value="other">Other</option>
+                    </select>
+                   
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-500">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div>
+                <label for="phone" class="form-label">Phone Number*</label>
+                <input type="tel" id="phone" name="phone" placeholder="Please enter a valid phone number." class="form-input" required>
+            </div>
+
+           
+            <div>
+                <label for="message" class="form-label">Message*</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" class="form-input resize-y" required></textarea>
+                <p class="text-[13px] text-gray-500 mt-1">100 characters</p>
+            </div>
+
+            
+            <div class="pt-2">
+                <p class="form-label mb-3">How should we contact you?</p>
+                <div class="flex items-center space-x-8">
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="radio" name="contactPref" value="phone">
+                        <span class="font-medium text-gray-800">Phone</span>
+                    </label>
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="radio" name="contactPref" value="email">
+                        <span class="font-medium text-gray-800">Email</span>
+                    </label>
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="radio" name="contactPref" value="both">
+                        <span class="font-medium text-gray-800">Both</span>
+                    </label>
+                </div>
+            </div>
+
+            
+            <div class="pt-2 pb-4">
+                <p class="form-label mb-3">How did you hear about us?</p>
+                <div class="flex items-center space-x-8">
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="checkbox" name="source" value="friend" checked>
+                        <span class="font-medium text-gray-800">Friend</span>
+                    </label>
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="checkbox" name="source" value="ts_academy">
+                        <span class="font-medium text-gray-800">TS Academy</span>
+                    </label>
+                    <label class="flex items-center text-[14px] cursor-pointer">
+                        <input type="checkbox" name="source" value="others">
+                        <span class="font-medium text-gray-800">Others</span>
+                    </label>
+                </div>
+            </div>
+
+           
+            <div>
+                <button type="submit" class="bg-[#b8b8b8] hover:bg-[#a3a3a3] text-white font-medium py-2.5 w-[240px] text-sm transition-colors duration-200">
+                    Submit
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

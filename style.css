@@ -1,0 +1,39 @@
+ <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+        }
+       
+        .form-input {
+            width: 100%;
+            max-width: 460px;
+            border: 1px solid #e5e7eb;
+            padding: 0.625rem 0.75rem;
+            font-size: 0.875rem;
+            color: #374151;
+            outline: none;
+            transition: border-color 0.2s;
+            border-radius: 2px;
+        }
+        .form-input::placeholder {
+            color: #9ca3af;
+        }
+        .form-input:focus {
+            border-color: #9ca3af;
+        }
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.5rem;
+        }
+        /* Custom radio and checkbox styling */
+        input[type="radio"], input[type="checkbox"] {
+            width: 1rem;
+            height: 1rem;
+            accent-color: #374151;
+            margin-right: 0.5rem;
+            cursor: pointer;
+        }
+    </style>
