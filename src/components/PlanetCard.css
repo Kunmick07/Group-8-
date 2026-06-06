@@ -1,0 +1,48 @@
+.planet-card {
+  background: var(--navy-light);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--white-08);
+  transition: transform 0.25s, box-shadow 0.25s;
+  margin: 0;
+}
+
+.planet-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+.planet-card__img-wrap {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.planet-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.planet-card:hover .planet-card__img {
+  transform: scale(1.05);
+}
+
+.planet-card__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+}
+
+.planet-card__name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.planet-card__distance {
+  font-size: 0.78rem;
+  color: var(--white-40);
+}
