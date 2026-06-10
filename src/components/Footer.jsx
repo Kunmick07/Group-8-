@@ -13,6 +13,7 @@ const teamMembers = [
   { name: 'Adeyemi Stephen', url: null },
   { name: 'Aderibigbe Ayomiposi Ebenezer', url: 'https://www.linkedin.com/in/ayomiposi-aderibigbe-680aa7246' },
   { name: 'Ige Olamilekan Timothy', url: 'https://github.com/account' },
+  { name: 'Simeon Ajayi', url: 'https://github.com/itzsimeon' }
 ]
 
 export default function Footer() {
