@@ -1,4 +1,10 @@
-**GROUP-8**
+**Team Phoenix – Group 8**
+Submission Information
+
+Group: 8
+
+Team Lead Contact: deyaokoye@gmail.com
+
 Team Phoenix successfully recreated the provided mockup as a fully functional React application as part of the TS Academy Frontend Development Capstone Project.
 
 While the project brief focused on demonstrating our understanding of HTML, CSS, JavaScript, React, APIs, responsive design, Git workflows, and deployment, this project became much more than a technical exercise for our team.
@@ -20,102 +26,28 @@ This project reflects our growth not only as frontend developers but also as col
 7. GitHub Collaboration Workflow
 8. Public Deployment
 
-**Team Contributions**
-Pair 1 – Navigation Bar
-1. Oluwafemi
-2. Eunice
-
-Responsibilities
--Developed the top navigation component
--Implemented navigation structure and user interaction
-
-Pair 2– Frame 143
-1. Temitope
-
-Responsibilities
--Built and styled Frame 143 section
--Ensured alignment with design specifications
-
-Pair 3 – Image Section
-1. Jude
-2. Ugonna
-
-Responsibilities
--Implemented the planetary image display section
--Integrated layout and visual presentation requirements
-
-Pair 4 – Frame 153 (Table Section)
-1. Ugonna
-
-Responsibilities
--Developed the data table section
--Structured and styled table content
-
- Pair 5 – Contact Form
-
-1. Kesieya
-2. Dorcas
-3. Olawale 
-
-Responsibilities
--Built form components
--Implemented validation logic
--Connected form submission functionality
-
-Pair 6 – Footer
-
-1. Fareedah
-
-Responsibilities
--Developed footer section
--Implemented required links and team information
-
-Pair 7 – Application Integration & GitHub Coordination
-
-1. Ayomiposi 
-2. Akinkunmi 
-3. Olamilekan
-
-Responsibilities
--Combined all individual components
--Managed integration into the React application
--Assisted with repository structure and final code organization
-
-
-Pair 8 – Mobile Responsiveness & Testing
-
-1. Olamilekan
-2. Akinkunmi 
-3. Ayomiposi 
-
-Responsibilities
--Optimized the application for different screen sizes
--Conducted testing and issue resolution
-Improved overall user experience
-
-
-Team Lead
-Kesideya
-
-Responsibilities
--Organized task distribution
--Coordinated team communication
--Conducted progress tracking and daily follow-ups
--Managed workflow and accountability
--Facilitated collaboration between pairs
--Oversaw final project completion and documentation
+| Team/Section | Contributors | Responsibilities |
+|-------------|-------------|------------------|
+| Navigation Bar | Oluwafemi, Eunice | Developed the top navigation component and implemented navigation structure and user interaction. |
+| Frame 143 | Temitope | Built and styled Frame 143 section and ensured alignment with design specifications. |
+| Image Section | Jude, Ugonna | Implemented the planetary image display section and integrated layout and visual presentation requirements. |
+| Frame 153 (Table Section) | Ugonna | Developed the data table section and structured and styled table content. |
+| Contact Form | Kesideya, Dorcas, Olawale | Built form components, implemented validation logic, and connected form submission functionality. |
+| Footer | Fareedah | Developed footer section and implemented required links and team information. |
+| Application Integration & GitHub Coordination | Ayomiposi, Akinkunmi, Olamilekan | Combined all individual components, managed integration into the React application, and assisted with repository structure and final code organization. |
+| Mobile Responsiveness & Testing | Olamilekan, Akinkunmi, Ayomiposi | Optimized the application for different screen sizes, conducted testing and issue resolution, and improved overall user experience. |
 
 
   Throughout this project, we learned that successful software development goes beyond writing code.
 
 We gained practical experience in:
 
--Team collaboration
--Git and GitHub workflows
--Pull Request reviews
--Communication across distributed teams
--Problem-solving under deadlines
--React component architecture
--Real-world project management
+1. Team collaboration
+2. Git and GitHub workflows
+3. Pull Request reviews
+4. Communication across distributed teams
+5. Problem-solving under deadlines
+6. React component architecture
+7. Real-world project management
 
 Most importantly, we learned how individual contributions can come together to build something bigger than any single developer could create alone.
